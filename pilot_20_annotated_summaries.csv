@@ -1,0 +1,23 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: pilot_20_annotated_summaries.csv>
+index,sample_id,selection,display_order,review_date_as_displayed,playtime_on_page_hours,feedback_level,issue_topics,summary_paraphrased,source_page_url
+0,H01,most_helpful,1,"June 25, 2019",256.7,F1,privacy_terms,Criticizes EULA-related collection and transfer of personal data,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=toprated&l=english&p=1
+1,H02,most_helpful,2,"May 30, 2018",468.1,F1,privacy_terms,Quotes amended EULA and warns readers against accepting it,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=toprated&l=english&p=1
+2,H03,most_helpful,3,"June 12, 2025",340.8,F3,privacy_terms,Proposes retaining earlier terms or offering a refund after EULA changes,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=toprated&l=english&p=1
+3,H04,most_helpful,4,"July 24, 2022",2446.8,F1,launcher;technical_performance;privacy_terms,"Reports launcher crashes, mod issues and data-collection concerns",https://steamcommunity.com/app/289070/negativereviews/?browsefilter=toprated&l=english&p=1
+4,H05,most_helpful,5,"April 23, 2018",114.6,F1,privacy_terms,Objects to EULA data practices and advises uninstalling,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=toprated&l=english&p=1
+5,H06,most_helpful,6,"June 4, 2021",373.0,F1,privacy_terms,Displays personal-information clauses from a revised EULA,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=toprated&l=english&p=1
+6,H07,most_helpful,7,"June 8, 2025",284.1,F1,privacy_terms,Details privacy policy and terms concerns and disputes publisher assurances,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=toprated&l=english&p=1
+7,H08,most_helpful,8,"November 26, 2022",47.6,F2,privacy_terms;technical_performance,Reports unexpected network behavior and requests offline functionality,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=toprated&l=english&p=1
+8,H09,most_helpful,9,"April 6, 2021",4008.6,F1,launcher;technical_performance,Attributes an unusable game to the 2K launcher,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=toprated&l=english&p=1
+9,H10,most_helpful,10,"January 18, 2019",277.8,F1,privacy_terms,Quotes concerning revised EULA provisions,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=toprated&l=english&p=1
+10,R01,most_recent,1,11 August (year hidden),54.3,F0,other,"One-word game reference, no identifiable complaint",https://steamcommunity.com/app/289070/negativereviews/?browsefilter=mostrecent&l=english&p=1
+11,R02,most_recent,2,11 August (year hidden),194.3,F3,gameplay_mechanics;balance,Describes movement and difficulty friction; suggests faster unit upgrades and easier mode,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=mostrecent&l=english&p=1
+12,R03,most_recent,3,11 August (year hidden),125.6,F1,gameplay_mechanics,Complains about map generation and repeated restarts,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=mostrecent&l=english&p=1
+13,R04,most_recent,4,10 August (year hidden),136.4,F1,technical_performance,Reports crashes on macOS,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=mostrecent&l=english&p=1
+14,R05,most_recent,5,10 August (year hidden),49.0,F1,balance,Criticizes perceived game balance and warns purchasers,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=mostrecent&l=english&p=1
+15,R06,most_recent,6,10 August (year hidden),110.9,F2,privacy_terms,Requests removal of the publisher EULA,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=mostrecent&l=english&p=1
+16,R07,most_recent,7,10 August (year hidden),26.3,F1,technical_performance;other,Reports multimonitor incompatibility alongside ideological criticism,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=mostrecent&l=english&p=1
+17,R08,most_recent,8,10 August (year hidden),166.3,F1,technical_performance,Reports frequent game crashes,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=mostrecent&l=english&p=1
+18,R09,most_recent,9,9 August (year hidden),3.5,F1,privacy_terms,Criticizes EULA requirements and states future buying intent,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=mostrecent&l=english&p=1
+19,R10,most_recent,10,9 August (year hidden),221.5,F0,other,Calls the game a time sink without identifying a specific issue,https://steamcommunity.com/app/289070/negativereviews/?browsefilter=mostrecent&l=english&p=1
