@@ -1,0 +1,11 @@
+sample_id,posted_date_inferred,playtime_on_page_hours,feedback_level,issue_topics,summary_paraphrased,in_2026_may_oct_window,source_page
+N01,2026-10-29,3.5,F1,business_pricing,Questions why owner cannot buy a discounted bundle for own account; only more expensive completion offer.,True,https://steamcommunity.com/app/289070/negativereviews/
+N02,2026-10-29,10.5,F2,ui_accessibility,Wants larger scalable UI while using a controller on a couch.,True,https://steamcommunity.com/app/289070/negativereviews/
+N03,2026-10-31,1.9,F0,general_comparison,"Overall unfavorable comparison with Civilization V, no identifiable specific defect.",True,https://steamcommunity.com/app/289070/negativereviews/
+N04,2026-11-06,14.3,F1,update_mods,An update reportedly stopped mods working; no explicit change request.,False,https://steamcommunity.com/app/289070/negativereviews/
+N05,2026-11-02,21.7,F1,gameplay_complexity,Says game feels simpler and less challenging than previous Civilization games.,False,https://steamcommunity.com/app/289070/negativereviews/
+N06,2026-11-01,153.5,F1,ai_balance,Reports computer opponents cannot keep up technologically or challenge the player.,False,https://steamcommunity.com/app/289070/negativereviews/
+N07,2026-11-01,5.4,F0,general_comparison,States preferred features of Civilization V were ruined without specifying them.,False,https://steamcommunity.com/app/289070/negativereviews/
+N08,2026-10-30,28.2,F1,technical_performance;ui_accessibility,"Mentions poor optimization, bugs and tiny UI.",True,https://steamcommunity.com/app/289070/negativereviews/
+N09,2026-10-30,204.3,F1,business_pricing,Complains about aggressive DLC monetization.,True,https://steamcommunity.com/app/289070/negativereviews/
+N10,2026-11-01,20.6,EXCLUDED,empty_review,Displayed review has no substantive text.,False,https://steamcommunity.com/app/289070/negativereviews/
