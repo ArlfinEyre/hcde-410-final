@@ -28,6 +28,13 @@ jobs:
         run: python scripts/collect_real_pilot.py
       - name: Encrypt and preserve original review text
         run: python scripts/encrypt_private_pilot.py
+      - name: Retain encrypted backup as a GitHub Actions artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: encrypted-steam-pilot
+          path: data_encrypted/steam_pilot_original_encrypted.json
+          retention-days: 7
+          if-no-files-found: error
       - name: Commit and safely publish derived pilot files
         shell: bash
         run: |
