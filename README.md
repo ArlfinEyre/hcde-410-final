@@ -19,3 +19,11 @@ This repository contains the A4 preliminary proposal extended into the A5 final 
 - [Supplementary visible-page check](additional_recent_pilot.ipynb)
 
 Review IDs and bulk raw review text stay private and are not intended for public GitHub. The repository's MIT license applies to the project's original code and documentation, not Steam data or reviewers' comments.
+
+## Original Steam review data (not AI paraphrases)
+
+The previous `pilot_20_annotated_summaries.csv` and `latest_page_10_paraphrased.csv` are **exploratory paraphrases**, not raw original review text.
+
+A [live original-review collector](scripts/collect_real_pilot.py) and a [GitHub Actions job](.github/workflows/steam-real-pilot.yml) now attempt a 10-review-per-period pilot using Steam's current official `IUserReviewsService/GetAppReviews` endpoint. **The workflow must succeed before any real API data is claimed.** Check the [Actions page](../../actions/workflows/steam-real-pilot.yml) for the result.
+
+When successful, it creates `data/real_steam_pilot_features.csv` (anonymized metadata and literal word indicators), `data/real_steam_pilot_status.json` (provenance), and `data/real_steam_pilot_summary.md`. The raw original `review` text is collected **privately** in `data_private/pilot_reviews_private.csv`, ignored by Git. GitHub Actions runners are temporary; to retain and read originals, run `python scripts/collect_real_pilot.py` in your own local/Colab environment after installing `pandas` and `requests`, then keep `data_private/` private. No one should confuse automated keyword matches with the manual F0–F3 coding or interpret a first-page pilot as a random sample.
