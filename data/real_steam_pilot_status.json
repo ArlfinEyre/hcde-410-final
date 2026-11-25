@@ -1,0 +1,30 @@
+{
+  "source": "Steam official IUserReviewsService/GetAppReviews/v1/",
+  "appid": 289070,
+  "collected_at_utc": "2026-11-25T21:06:21.347763+00:00",
+  "original_text_local_only": "data_private/pilot_reviews_private.csv",
+  "public_csv": "data/real_steam_pilot_features.csv",
+  "review_rows": 50,
+  "period_counts": {
+    "base_2017": 10,
+    "rise_fall_2018": 10,
+    "gathering_2019": 10,
+    "frontier_2020": 10,
+    "recent_2026": 10
+  },
+  "keyword_counts": {
+    "kw_ai": 4,
+    "kw_balance": 0,
+    "kw_diplomacy": 1,
+    "kw_combat": 3,
+    "kw_city": 8,
+    "kw_pacing": 5,
+    "kw_ui": 2,
+    "kw_performance": 5,
+    "kw_terms": 0,
+    "kw_pricing": 9,
+    "kw_launcher": 0
+  },
+  "sampling": "First page of 10 recent negative English reviews in each period; non-random exploratory pilot",
+  "coding": "Keyword flags are exploratory text features, NOT human F0-F3 coding"
+}
