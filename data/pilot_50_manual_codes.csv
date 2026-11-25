@@ -1,0 +1,51 @@
+sample_id,period,created_utc,feedback_level,issue_topics,coding_note_paraphrased,confidence,pilot_selection
+steam_pilot_001,base_2017,2017-08-31T01:16:02+00:00,F0,,General negative reaction without a specific defect,high,first_10_recent_per_period
+steam_pilot_002,base_2017,2017-08-30T17:52:33+00:00,F1,game_ai_opponents,Single-player AI behavior criticized,high,first_10_recent_per_period
+steam_pilot_003,base_2017,2017-08-30T17:37:17+00:00,F1,technical_performance;game_ai_opponents;game_city_management;game_other;dlc_pricing,"Crashes and expansion, settlement, AI, map concerns; review edited after creation",medium,first_10_recent_per_period
+steam_pilot_004,base_2017,2017-08-30T04:19:07+00:00,F1,game_city_management,District and expendable-builder mechanics criticized,high,first_10_recent_per_period
+steam_pilot_005,base_2017,2017-08-30T01:50:15+00:00,EXCLUDED,,Non-substantive ASCII art/meme rather than an identifiable review,high,first_10_recent_per_period
+steam_pilot_006,base_2017,2017-08-29T22:21:12+00:00,F1,game_city_management,Dislikes district system,high,first_10_recent_per_period
+steam_pilot_007,base_2017,2017-08-29T01:33:22+00:00,F0,,Prefers Civ V without specifying a mechanism,high,first_10_recent_per_period
+steam_pilot_008,base_2017,2017-08-29T01:09:32+00:00,F2,game_other;visual_style,Requests meaningful new design direction; also criticizes visuals,medium,first_10_recent_per_period
+steam_pilot_009,base_2017,2017-08-29T00:47:27+00:00,F1,technical_performance,Reports save files disappearing,high,first_10_recent_per_period
+steam_pilot_010,base_2017,2017-08-28T23:59:23+00:00,F1,game_pacing_progression;game_other,Criticizes pacing and lack of progression options,high,first_10_recent_per_period
+steam_pilot_011,rise_fall_2018,2018-08-30T05:47:02+00:00,F2,game_diplomacy;game_ai_opponents;privacy_terms,Requests adjustment to AI and warmonger mechanics; privacy allegation not verified,medium,first_10_recent_per_period
+steam_pilot_012,rise_fall_2018,2018-08-30T01:58:40+00:00,F2,dlc_pricing;game_other,Requests repairing mechanics before paid content; historical text edited,high,first_10_recent_per_period
+steam_pilot_013,rise_fall_2018,2018-08-29T02:18:30+00:00,F0,,Negative evaluation without an identifiable defect,high,first_10_recent_per_period
+steam_pilot_014,rise_fall_2018,2018-08-29T01:48:27+00:00,F1,technical_performance,Reports device overheating,high,first_10_recent_per_period
+steam_pilot_015,rise_fall_2018,2018-08-28T01:29:17+00:00,F0,,Generic negative comparison of gameplay to Civ V,medium,first_10_recent_per_period
+steam_pilot_016,rise_fall_2018,2018-08-27T00:58:35+00:00,EXCLUDED,,Predominantly Portuguese despite English API label; fails English-only scope,high,first_10_recent_per_period
+steam_pilot_017,rise_fall_2018,2018-08-26T16:21:48+00:00,F1,game_other,Complains of reduced depth and variability,high,first_10_recent_per_period
+steam_pilot_018,rise_fall_2018,2018-08-26T10:52:41+00:00,F0,,Broad negative franchise judgment without specific feature,high,first_10_recent_per_period
+steam_pilot_019,rise_fall_2018,2018-08-24T07:42:54+00:00,F1,dlc_pricing,Objects to commercial DLC strategy,high,first_10_recent_per_period
+steam_pilot_020,rise_fall_2018,2018-08-22T17:10:49+00:00,F1,game_diplomacy;game_pacing_progression;technical_performance,Denunciations and wars plus gameplay and rendering slowness,high,first_10_recent_per_period
+steam_pilot_021,gathering_2019,2019-08-30T19:52:00+00:00,F1,game_combat_units;game_ai_opponents;game_diplomacy;game_balance;game_pacing_progression;game_city_management,"Detailed critique of roads, religious unit rules, resources and technology pacing; no explicit remedy",medium,first_10_recent_per_period
+steam_pilot_022,gathering_2019,2019-08-30T14:40:55+00:00,F2,dlc_pricing;technical_performance,DLC unavailable after purchase; requests download or refund,high,first_10_recent_per_period
+steam_pilot_023,gathering_2019,2019-08-30T11:20:57+00:00,F1,technical_performance;privacy_terms,"Reports crashes and alleges surveillance, unverified allegation",medium,first_10_recent_per_period
+steam_pilot_024,gathering_2019,2019-08-27T04:30:34+00:00,F1,game_pacing_progression,Describes game as overly tedious,medium,first_10_recent_per_period
+steam_pilot_025,gathering_2019,2019-08-25T12:03:41+00:00,F1,content_representation,"Disputes how Hong Kong and city-states are represented; viewpoint coded, not validated",medium,first_10_recent_per_period
+steam_pilot_026,gathering_2019,2019-08-25T04:13:44+00:00,F0,,Only compares overall quality to Civ V,high,first_10_recent_per_period
+steam_pilot_027,gathering_2019,2019-08-24T20:01:41+00:00,F1,technical_performance,Repeatable crashes after map loading,high,first_10_recent_per_period
+steam_pilot_028,gathering_2019,2019-08-23T15:36:27+00:00,F1,game_ai_opponents;dlc_pricing;technical_performance;game_other,"AI, DLC value, multiplayer compatibility, and world-generation problems",high,first_10_recent_per_period
+steam_pilot_029,gathering_2019,2019-08-22T12:50:14+00:00,F1,technical_performance,Reports game no longer launching after reinstall,medium,first_10_recent_per_period
+steam_pilot_030,gathering_2019,2019-08-21T00:26:47+00:00,F0,,Expresses dislike without specific feature,high,first_10_recent_per_period
+steam_pilot_031,frontier_2020,2020-11-30T20:20:52+00:00,F2,technical_performance,Explicitly requests a crash bug fix,high,first_10_recent_per_period
+steam_pilot_032,frontier_2020,2020-11-30T19:04:28+00:00,F1,dlc_pricing;game_city_management;game_combat_units;game_diplomacy;ui_onboarding;visual_style;game_other,Long Civ V/Civ VI comparison with missing mechanics and DLC criticism; implied wishes not treated as explicit requests,medium,first_10_recent_per_period
+steam_pilot_033,frontier_2020,2020-11-30T04:14:33+00:00,F2,technical_performance,Explicitly wants improved compatibility and speed,high,first_10_recent_per_period
+steam_pilot_034,frontier_2020,2020-11-30T00:57:18+00:00,F3,technical_performance;ui_onboarding,Explicitly proposes disabling broken tutorial as remedy,high,first_10_recent_per_period
+steam_pilot_035,frontier_2020,2020-11-29T22:31:04+00:00,F1,update_mods,Reports broken mods,high,first_10_recent_per_period
+steam_pilot_036,frontier_2020,2020-11-29T18:25:38+00:00,F1,technical_performance,Reports frequent crashes freezing laptop,high,first_10_recent_per_period
+steam_pilot_037,frontier_2020,2020-11-29T15:25:28+00:00,F1,game_city_management;game_pacing_progression,Criticizes building speed and resource/slot constraints,high,first_10_recent_per_period
+steam_pilot_038,frontier_2020,2020-11-29T12:39:22+00:00,F1,technical_performance,Mid-game crashes on iMac,high,first_10_recent_per_period
+steam_pilot_039,frontier_2020,2020-11-29T08:12:58+00:00,F1,dlc_pricing,Dislikes DLC marketing approach,high,first_10_recent_per_period
+steam_pilot_040,frontier_2020,2020-11-29T06:36:23+00:00,F1,technical_performance,Crashes on macOS,high,first_10_recent_per_period
+steam_pilot_041,recent_2026,2026-10-31T20:31:15+00:00,F1,update_mods,Mod installation and compatibility problems,high,first_10_recent_per_period
+steam_pilot_042,recent_2026,2026-10-31T18:51:13+00:00,F1,game_other,Complains about early multiplayer rushing,medium,first_10_recent_per_period
+steam_pilot_043,recent_2026,2026-10-31T18:22:37+00:00,F1,content_representation,Disputes historical identity presentation of Alexander and Macedon; opinion not fact-checked,high,first_10_recent_per_period
+steam_pilot_044,recent_2026,2026-10-31T14:19:15+00:00,F1,launcher;game_other,"Account sign-in problem for multiplayer, plus stale gameplay",high,first_10_recent_per_period
+steam_pilot_045,recent_2026,2026-10-30T16:34:08+00:00,F1,ui_onboarding;visual_style,Confusing interface and disliked visuals,high,first_10_recent_per_period
+steam_pilot_046,recent_2026,2026-10-30T14:48:02+00:00,F1,dlc_pricing,DLC monetization criticism,high,first_10_recent_per_period
+steam_pilot_047,recent_2026,2026-10-30T04:04:56+00:00,F1,dlc_pricing,Bundle ownership and pricing restriction,high,first_10_recent_per_period
+steam_pilot_048,recent_2026,2026-10-30T03:33:23+00:00,F2,ui_onboarding,Explicitly requests scalable UI,high,first_10_recent_per_period
+steam_pilot_049,recent_2026,2026-10-30T01:12:20+00:00,F0,,Prefers Civ V without specific explanation,high,first_10_recent_per_period
+steam_pilot_050,recent_2026,2026-10-29T14:34:13+00:00,F0,,Purely generic dislike,high,first_10_recent_per_period
