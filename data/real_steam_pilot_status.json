@@ -1,7 +1,7 @@
 {
   "source": "Steam official IUserReviewsService/GetAppReviews/v1/",
   "appid": 289070,
-  "collected_at_utc": "2026-11-25T21:25:32.611811+00:00",
+  "collected_at_utc": "2026-11-25T21:26:42.090465+00:00",
   "original_text_local_only": "data_private/pilot_reviews_private.csv",
   "public_csv": "data/real_steam_pilot_features.csv",
   "review_rows": 50,
