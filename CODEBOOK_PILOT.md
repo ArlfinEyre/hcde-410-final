@@ -2,7 +2,7 @@
 
 **Purpose:** Code what English-language negative Steam reviews *say*, not whether the reviewer is right, whether the recommendation is helpful, or whether an update caused the problem. This codebook responds to the A4 instructor feedback about concrete examples, specific game systems (especially AI opponents), multiple development periods, and code–recode consistency.
 
-**Status:** Draft for testing on a 40–50-review **API** pilot across five time periods. The older `pilot_20_annotated_summaries.csv` and `latest_page_10_paraphrased.csv` were convenience samples coded using an earlier, broader topic scheme. They are retained for transparency; **do not treat them as if they had been re-coded under the new topic labels**.
+**Status (Nov 25):** A genuine 50-review **API** pilot has been retrieved, preserved as an encrypted original-text archive, and read for a **first-pass manual coding**. [See first-pass annotations](data/pilot_50_manual_codes.csv) and [findings](data/pilot_50_coding_findings.md). Codes are provisional pending a delayed independent re-code. This remains a nonrandom first-page pilot; it is not the formal random sample. The older `pilot_20_annotated_summaries.csv` and `latest_page_10_paraphrased.csv` were convenience samples coded using an earlier, broader topic scheme. They are retained for transparency; **do not treat them as if they had been re-coded under the new topic labels**.
 
 ## A. Feedback specificity — one highest supported code per review
 
@@ -58,6 +58,15 @@ For each code, tag a topic only when the review **explicitly mentions** the rele
 
 For the report, keep **game system tags separate from non-gameplay tags**. Otherwise a surge in policy or launcher complaints could obscure which gameplay systems players discuss. Topic counts may exceed the number of reviews because multiple tags are allowed.
 
+### Additional non-gameplay topics identified from the genuine-text Pilot (Nov 25)
+
+- `visual_style` — critiques of visual style, art direction, models, or graphics aesthetic; **not** synonymous with poor interface legibility.
+- `content_representation` — critiques of historical, cultural, political, or geographic naming and representation. Code the **reviewer's stated position** without endorsing or fact-checking their claim.
+
+**Pilot exclusions:** A first-page review consisting essentially of copied ASCII meme art was marked `EXCLUDED` (no usable issue). Another review was predominantly Portuguese even though the API page labeled it English, so it was excluded from the English-only pilot. These rules should be checked for consistency in the formal sample.
+
+**Important temporal limitation:** `timestamp_created` selects the review stratum, but the **current text can have been edited years later**. The pilot identified 13 of 50 reviews with updates after creation. Distinguish the author's review date from the age of the content when discussing historical changes.
+
 ## C. Sampling periods and metadata
 
 All periods are based on the *creation date* in UTC; the title describes the development context, not verified DLC ownership:
@@ -76,7 +85,7 @@ Use `Recent` with date filters and cursor pagination in the new [Steam IUserRevi
 
 ## D. Coding process and consistency
 
-1. **Pilot 40–50 reviews:** Inspect around 8–10 API reviews per period. Verify date fields, usable text, and edge cases. Revise this codebook and retain a dated change log.
+1. **Pilot 40–50 reviews (completed first pass Nov 25):** Read 10 original API reviews per period, apply codes, document exclusions and borderline cases. See the encrypted source archive and first-pass public code table. Do not claim population representativeness.
 2. **Formal sample:** Randomly draw up to 40 reviews **within each complete period frame** (target n=200). Track fewer-than-40 periods, exclusions, and coding decisions.
 3. **Code–recode:** After a break, independently re-code around **15–20%** of the coded sample without looking at the first labels. Calculate agreement for F0–F3 and review where topic tags differ; document disagreements and any definitions revised.
 4. **Report:** Count feedback levels and gameplay-system topics, separately summarize business/technical issues, and show differences across periods with per-period sample sizes and appropriate caution.
@@ -86,6 +95,7 @@ Use `Recent` with date filters and cursor pagination in the new [Steam IUserRevi
 ## E. Change log
 
 - **Nov 15:** Initial broad F0–F3 and issue labels used for two small, non-random visible-page feasibility checks.
-- **Nov 16:** Responded to instructor's A4 feedback: five development-period strata; finer game-system labels, especially AI vs balance; documented illustrative examples and repeat-coding procedure. Formal API pilot and main sample remain uncollected.
+- **Nov 16:** Responded to instructor's A4 feedback: five development-period strata; finer game-system labels, especially AI vs balance; documented illustrative examples and repeat-coding procedure.
+- **Nov 25:** Original-text API Pilot completed (10 records in each of 5 periods). Added two emergent topics, language/meme exclusions, edited-review caveat, and [first-pass coding](data/pilot_50_manual_codes.csv). Formal 200-review random sample and code–recode remain incomplete.
 
 **Release/period references:** [2K Rise and Fall](https://newsroom.2k.com/news/sid-meiers-civilizationr-vi-rise-and-fall-available-now) · [2K Gathering Storm](https://newsroom.2k.com/news/sid-meiers-civilizationr-vi-gathering-storm-now-available) · [2K New Frontier Pass](https://newsroom.2k.com/news/sid-meiers-civilizationr-vi-new-frontier-pass-set-to-deliver-bimonthly-new-content-beginning-may-21-2020).
