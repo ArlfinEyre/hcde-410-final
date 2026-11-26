@@ -1,5 +1,7 @@
 # Genuine-text pilot: first-pass qualitative coding (25 Nov 2026)
 
+**Disclosure:** The first-pass 50-case coding was generated with ChatGPT assistance by reading the original Steam comments. It is a provisional qualitative classification pending student review, not an independently conducted human-only coding exercise.
+
 The 50 records in [real_steam_pilot_features.csv](real_steam_pilot_features.csv) were obtained through the official Steam API and their **original full text was read** for this exploratory coding pass. [First-pass annotated table](pilot_50_manual_codes.csv) contains only anonymized codes and brief paraphrased notes, **not copied original reviews**. Decrypted originals are deliberately private; the encrypted archive is preserved separately.
 
 ## Coding results (descriptive pilot only)
