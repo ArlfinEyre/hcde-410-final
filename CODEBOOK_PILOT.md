@@ -2,7 +2,7 @@
 
 **Purpose:** Code what English-language negative Steam reviews *say*, not whether the reviewer is right, whether the recommendation is helpful, or whether an update caused the problem. This codebook responds to the A4 instructor feedback about concrete examples, specific game systems (especially AI opponents), multiple development periods, and code–recode consistency.
 
-**Status (Nov 25):** A genuine 50-review **API** pilot has been retrieved, preserved as an encrypted original-text archive, and read for a **first-pass manual coding**. [See first-pass annotations](data/pilot_50_manual_codes.csv) and [findings](data/pilot_50_coding_findings.md). Codes are provisional pending a delayed independent re-code. This remains a nonrandom first-page pilot; it is not the formal random sample. The older `pilot_20_annotated_summaries.csv` and `latest_page_10_paraphrased.csv` were convenience samples coded using an earlier, broader topic scheme. They are retained for transparency; **do not treat them as if they had been re-coded under the new topic labels**.
+**Status (Nov 25):** A genuine 50-review **API** pilot has been retrieved, preserved as an encrypted original-text archive, and read for a **provisional AI-assisted first-pass coding**. [See first-pass annotations](data/pilot_50_manual_codes.csv) and [findings](data/pilot_50_coding_findings.md). Codes are provisional pending a delayed independent re-code. This remains a nonrandom first-page pilot; it is not the formal random sample. The older `pilot_20_annotated_summaries.csv` and `latest_page_10_paraphrased.csv` were convenience samples coded using an earlier, broader topic scheme. They are retained for transparency; **do not treat them as if they had been re-coded under the new topic labels**.
 
 ## A. Feedback specificity — one highest supported code per review
 
@@ -105,3 +105,13 @@ Use `Recent` with date filters and cursor pagination in the new [Steam IUserRevi
 All 11 cases marked `medium` in the initial genuine-text Pilot were revisited against their original text. The F0–F3 labels were retained; one secondary hardware/performance topic was added. Rationale is recorded in [the audit](data/pilot_borderline_audit.md), and the 50-row [adjudicated code table](data/pilot_50_adjudicated_codes.csv) preserves initial decisions and review notes.
 
 **Do not report these 11 checks as blinded code–recode reliability.** The reviewer knew the initial labels; an independent, delayed 15–20% re-code of the *formal sample* remains necessary. Specific methodological cautions include historical review text edited after its publication year and an English API tag that does not guarantee the comment is actually English.
+
+## G. Formal 200-case sampling milestone (Nov 25, 2026)
+
+The revised complete-frame collector succeeded: **3,191** matching review IDs across the five periods, with count-verified full pagination. It drew 40 primary candidates and 10 reserves per period (total 200+50). Four obviously unsuitable primary texts were excluded on initial screening and replaced deterministically from the random reserves, leaving 200 unique original-text records: 40 in each period. See [sample selection log](data/stratified_screening_log.csv) and [final screened IDs](data/stratified_screened_200_ids.csv).
+
+**Quality rule clarified:** A meaningful negative adjective such as 'trash' can be F0. A numeral-only response, punctuation-only response or an uninterpretable isolated word can be excluded as no substantive text. Steam English metadata is not sufficient to establish that a comment is in English. Human review of the rest of the 200 is still required.
+
+**Chronology:** 46 of these 200 records were edited after the creation timestamp. This is not evidence that the edited words were originally present. Consider a sensitivity analysis excluding edited historical reviews.
+
+**Coding status:** No full-sample F0–F3 labels have been finalized. The 50-review pilot first pass and borderline adjudication were assisted by ChatGPT; they do not constitute an independent blinded coding reliability check. Before final submission, the student should verify the classification and complete a delayed blind 15–20% code–recode check with disagreements logged.
