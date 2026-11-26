@@ -99,3 +99,9 @@ Use `Recent` with date filters and cursor pagination in the new [Steam IUserRevi
 - **Nov 25:** Original-text API Pilot completed (10 records in each of 5 periods). Added two emergent topics, language/meme exclusions, edited-review caveat, and [first-pass coding](data/pilot_50_manual_codes.csv). Formal 200-review random sample and code–recode remain incomplete.
 
 **Release/period references:** [2K Rise and Fall](https://newsroom.2k.com/news/sid-meiers-civilizationr-vi-rise-and-fall-available-now) · [2K Gathering Storm](https://newsroom.2k.com/news/sid-meiers-civilizationr-vi-gathering-storm-now-available) · [2K New Frontier Pass](https://newsroom.2k.com/news/sid-meiers-civilizationr-vi-new-frontier-pass-set-to-deliver-bimonthly-new-content-beginning-may-21-2020).
+
+## F. Borderline-case audit (Nov 25, 2026)
+
+All 11 cases marked `medium` in the initial genuine-text Pilot were revisited against their original text. The F0–F3 labels were retained; one secondary hardware/performance topic was added. Rationale is recorded in [the audit](data/pilot_borderline_audit.md), and the 50-row [adjudicated code table](data/pilot_50_adjudicated_codes.csv) preserves initial decisions and review notes.
+
+**Do not report these 11 checks as blinded code–recode reliability.** The reviewer knew the initial labels; an independent, delayed 15–20% re-code of the *formal sample* remains necessary. Specific methodological cautions include historical review text edited after its publication year and an English API tag that does not guarantee the comment is actually English.
