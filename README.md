@@ -8,7 +8,7 @@ This repository contains the A4 preliminary proposal extended into the A5 final 
 
 **Study design:** English-language negative reviews; target 40 coded reviews in each of five periods (2017, 2018, 2019, 2020, 2026), for a total target of 200. The codebook covers feedback specificity (F0–F3), specific game systems including AI opponents, balance, diplomacy, combat, cities, and pacing, and separate non-gameplay complaints. The plan includes a 40–50-review API pilot and within-coder repeat coding of 15–20% of the sample.
 
-**Current evidence and limitations:** The exploratory 20-review and 10-review visible-page checks are **nonrandom convenience samples**, using an earlier topic scheme. Their underlying paraphrased records and exploratory notebooks remain in the repository for transparency; they do **not** establish population frequencies or validate the new period strata. The official API-based stratified sample and code–recode check **have not yet been completed**. Older comments may have been edited and an author's expansion ownership cannot be inferred from review dates.
+**Current evidence and limitations:** The exploratory 20-review and 10-review visible-page checks are **nonrandom convenience samples**, using an earlier topic scheme. Their underlying paraphrased records and exploratory notebooks remain in the repository for transparency; they do **not** establish population frequencies or validate the new period strata. The formal period-stratified **sampling is now complete**, but the 200-case content coding and code–recode check **have not yet been completed**. Older comments may have been edited and an author's expansion ownership cannot be inferred from review dates.
 
 **Resources:**
 - [Official Steam User Reviews API](https://partner.steamgames.com/doc/webapi/IUserReviewsService) (replaces legacy /appreviews endpoint)
@@ -20,12 +20,22 @@ This repository contains the A4 preliminary proposal extended into the A5 final 
 
 Review IDs and bulk raw review text stay private and are not intended for public GitHub. The repository's MIT license applies to the project's original code and documentation, not Steam data or reviewers' comments.
 
+## Current status — complete five-period frames and screened 200 candidates (Nov 25, 2026)
+
+- **Complete retrieval:** [manifest](data/stratified_collection_manifest.json) confirms **3,191 unique matching Steam API reviews** across five windows (2017: 811; 2018: 763; 2019: 452; 2020: 870; 2026: 295), with every window paginated until the retrieved-ID count matched the API total.
+- **Seeded draws:** [candidate metadata](data/stratified_sample_features.csv) contains **200 initial random primary candidates and 50 random reserves**, 40+10 per period. Original text and review IDs are preserved in the [encrypted frame archive](data_encrypted/steam_complete_frame_encrypted.json) and [encrypted sample archive](data_encrypted/steam_stratified_sample_encrypted.json); the private key is **not** in this public repository.
+- **Initial content checks:** four obvious unsuitable primary candidates were replaced in random-reserve order. The [screening log](data/stratified_screening_log.csv), [screened set of 200 anonymous sample IDs](data/stratified_screened_200_ids.csv), and [screening methodology](data/stratified_screening_summary.md) document the changes. The selected 200 contain **46 reviews edited after their creation timestamp**.
+- **Rebuild privately:** decrypt the sample archive with the separately held key, then run [scripts/apply_screening.py](scripts/apply_screening.py). This recreates the **200 original-text rows** locally without making review text public.
+- **Not yet completed:** the **200-case F0–F3 and game-system coding**, comprehensive language/text validation, a delayed blinded code–recode check, results charts, and final report. The earlier 50-review coding is **AI-assisted provisional interpretation**, not independent human-only coding or an inter-coder reliability result.
+
+**[Verified full collection run](https://github.com/ArlfinEyre/hcde-410-final/actions/runs/45743547456)** · [Full-period collection script](scripts/collect_stratified_200.py)
+
 ## Current research status (verified Nov 25, 2026)
 
 - **API Pilot complete:** 50 genuine negative reviews across 5 periods, 10 per period. [Verified collection run](https://github.com/ArlfinEyre/hcde-410-final/actions/runs/45704323963).
 - **Verbatim review text retained encrypted**, with public key in the repo but the private key kept separately: [encrypted source archive](data_encrypted/steam_pilot_original_encrypted.json).
-- **First-pass manual coding completed:** [50 annotated records](data/pilot_50_manual_codes.csv), with [methodology and provisional findings](data/pilot_50_coding_findings.md). Valid coded reviews: 48; two excluded.
-- **Still pending:** independent code–recode check, complete stratified sample of 200, and final report. The 50-review Pilot is nonrandom and not representative.
+- **AI-assisted first-pass coding completed (requires independent review):** [50 annotated records](data/pilot_50_manual_codes.csv), with [methodology and provisional findings](data/pilot_50_coding_findings.md). Valid coded reviews: 48; two excluded.
+- **Still pending:** independent code–recode check, formal 200-review content coding, and final report. The 50-review Pilot is nonrandom and not representative.
 
 ## Verified live Steam API pilot — Nov 25, 2026
 
@@ -38,7 +48,7 @@ The following **real-data-derived** files are now committed:
 
 **Raw text availability:** The original `review` text was accessed in GitHub Actions and preserved as an **encrypted archive**. The private decryption key is stored separately outside GitHub. To generate further original review data, execute [the script](scripts/collect_real_pilot.py) in your own computer or Google Colab and save the generated `data_private/pilot_reviews_private.csv` privately. Do not push that file to this public repo.
 
-**Remaining work:** complete five date-window sampling frames and draw about 40 reviews from each; carry out independent code–recode consistency checking and final analysis. The original-text pilot has already been manually coded once.
+**Remaining work:** validate the selected 200 original texts, conduct transparent F0–F3/game-system coding, carry out delayed independent code–recode consistency checking and final analysis. The original-text pilot has already received one AI-assisted coding pass.
 
 ## Original Steam review data (not AI paraphrases)
 
