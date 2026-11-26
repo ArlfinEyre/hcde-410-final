@@ -1,0 +1,5 @@
+excluded_primary_sample_id,replacement_reserve_sample_id,period,reason
+CIV6_2020_040,CIV6_2020_041,frontier_2020,non-substantive numeric-only comment
+CIV6_2026_010,CIV6_2026_041,recent_2026,German-language text despite English API label
+CIV6_2026_011,CIV6_2026_042,recent_2026,punctuation-only review
+CIV6_2026_033,CIV6_2026_043,recent_2026,uninterpretable one-word response
