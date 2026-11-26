@@ -1,0 +1,134 @@
+{
+  "app_id": 289070,
+  "source": "https://api.steampowered.com/IUserReviewsService/GetAppReviews/v1/",
+  "collected_at_utc": "2026-11-26T02:37:49.046215+00:00",
+  "sampling_method": "Complete frames followed by random sample (seed 410+period index) after sorting numeric review IDs",
+  "seed_base": 410,
+  "filters": {
+    "review_type": "negative",
+    "purchase_type": "Steam",
+    "language": "english",
+    "filter": "Recent",
+    "filter_offtopic_activity": true
+  },
+  "periods": {
+    "base_2017": [
+      "2017-03-01",
+      "2017-08-31"
+    ],
+    "rise_fall_2018": [
+      "2018-03-01",
+      "2018-08-31"
+    ],
+    "gathering_2019": [
+      "2019-03-01",
+      "2019-08-31"
+    ],
+    "frontier_2020": [
+      "2020-06-01",
+      "2020-11-30"
+    ],
+    "recent_2026": [
+      "2026-05-01",
+      "2026-10-31"
+    ]
+  },
+  "frames": [
+    {
+      "period": "base_2017",
+      "pages_requested_max": 50,
+      "seen_ids": 811,
+      "matching_reported": 811,
+      "complete_frame": true,
+      "validated_review_rows": 811,
+      "nonblank_eligible": 811,
+      "blank_excluded": 0,
+      "edited": 203
+    },
+    {
+      "period": "rise_fall_2018",
+      "pages_requested_max": 50,
+      "seen_ids": 763,
+      "matching_reported": 763,
+      "complete_frame": true,
+      "validated_review_rows": 763,
+      "nonblank_eligible": 763,
+      "blank_excluded": 0,
+      "edited": 165
+    },
+    {
+      "period": "gathering_2019",
+      "pages_requested_max": 50,
+      "seen_ids": 452,
+      "matching_reported": 452,
+      "complete_frame": true,
+      "validated_review_rows": 452,
+      "nonblank_eligible": 452,
+      "blank_excluded": 0,
+      "edited": 91
+    },
+    {
+      "period": "frontier_2020",
+      "pages_requested_max": 50,
+      "seen_ids": 870,
+      "matching_reported": 870,
+      "complete_frame": true,
+      "validated_review_rows": 870,
+      "nonblank_eligible": 867,
+      "blank_excluded": 3,
+      "edited": 171
+    },
+    {
+      "period": "recent_2026",
+      "pages_requested_max": 50,
+      "seen_ids": 295,
+      "matching_reported": 295,
+      "complete_frame": true,
+      "validated_review_rows": 295,
+      "nonblank_eligible": 292,
+      "blank_excluded": 3,
+      "edited": 22
+    }
+  ],
+  "per_period_draws": {
+    "base_2017": {
+      "primary_count": 40,
+      "reserve_count": 10,
+      "full_frame_nonblank_count": 811
+    },
+    "rise_fall_2018": {
+      "primary_count": 40,
+      "reserve_count": 10,
+      "full_frame_nonblank_count": 763
+    },
+    "gathering_2019": {
+      "primary_count": 40,
+      "reserve_count": 10,
+      "full_frame_nonblank_count": 452
+    },
+    "frontier_2020": {
+      "primary_count": 40,
+      "reserve_count": 10,
+      "full_frame_nonblank_count": 867
+    },
+    "recent_2026": {
+      "primary_count": 40,
+      "reserve_count": 10,
+      "full_frame_nonblank_count": 292
+    }
+  },
+  "all_frames_complete": true,
+  "total_api_ids": 3191,
+  "total_validated_api_rows": 3191,
+  "primary_candidate_n": 200,
+  "reserve_candidate_n": 50,
+  "sha256_full_private": "16252bf21e0ced699388aebcd154138264a27460fd77060e332c0876485d4e07",
+  "sha256_sample_private": "bbfe4289539409ce0aaa5a3fb82d1493fdd6e9efb0daa1081da119cd81911e24",
+  "cautions": [
+    "This is a drawn sample, not yet manually coded F0-F3.",
+    "Original review text is encrypted, not publicly readable.",
+    "API English labels can be inaccurate; human language validation pending.",
+    "Some reviews are edited after creation, affecting period interpretations.",
+    "Equal-sized period strata are not proportional to Steam review volume."
+  ]
+}
