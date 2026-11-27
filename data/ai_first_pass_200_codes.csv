@@ -1,0 +1,201 @@
+sample_id,period,feedback_level_AI_first_pass,primary_three_group,issue_topics_semicolon,topic_count,review_created_month_utc,edited_since_creation,selection_role,review_characters,review_words,AI_rationale_paraphrase,model_confidence,human_validation_required,human_review_status
+CIV6_2017_001,base_2017,F1,specific problem,game_ai_opponents ; game_diplomacy ; game_religion,3,2017-05,False,initial_primary,405,65,Repeated denunciations and religious warfare disrupt play,high,False,Not yet reviewed
+CIV6_2017_002,base_2017,F2,improvement suggestion,game_ai_opponents ; game_balance ; game_diplomacy ; ui_onboarding ; game_city_management ; game_pacing_progression ; game_other,7,2017-03,True,initial_primary,7891,1377,"Long critique of AI, district, and UI systems; calls for AI diplomacy changes; edited",medium,True,Not yet reviewed
+CIV6_2017_003,base_2017,F2,improvement suggestion,ui_onboarding,1,2017-07,False,initial_primary,115,19,Requests correcting simplified characters in Traditional Chinese localization,high,True,Not yet reviewed
+CIV6_2017_004,base_2017,F1,specific problem,technical_performance,1,2017-05,False,initial_primary,244,52,End-turn crashes undermine long matches,high,False,Not yet reviewed
+CIV6_2017_005,base_2017,F1,specific problem,game_balance ; game_city_management ; game_pacing_progression,3,2017-06,False,initial_primary,646,126,Excessive micromanagement and difficulty bonuses stall expansion,high,False,Not yet reviewed
+CIV6_2017_006,base_2017,F2,improvement suggestion,game_ai_opponents ; game_diplomacy ; game_other,3,2017-06,False,initial_primary,1430,273,AI diplomacy irrational; wishes World Congress-like depth,medium,True,Not yet reviewed
+CIV6_2017_007,base_2017,F2,improvement suggestion,game_city_management ; game_combat_units ; game_balance ; visual_style ; ui_onboarding ; game_other,6,2017-06,False,initial_primary,4033,760,"Requests better controls for builders, roads, units and hidden resources",medium,True,Not yet reviewed
+CIV6_2017_008,base_2017,F1,specific problem,game_city_management ; visual_style ; game_pacing_progression ; game_map_generation,4,2017-05,False,initial_primary,431,82,Unpredictable map and growth mechanics make play tedious,high,False,Not yet reviewed
+CIV6_2017_009,base_2017,F1,specific problem,game_balance ; game_combat_units,2,2017-07,False,initial_primary,370,60,Early barbarian rush before player can produce military unit,high,False,Not yet reviewed
+CIV6_2017_010,base_2017,F2,improvement suggestion,game_ai_opponents ; ui_onboarding ; technical_performance ; dlc_pricing,4,2017-07,False,initial_primary,274,49,"Explicit demand to fix AI, UI and bugs before selling DLC",high,True,Not yet reviewed
+CIV6_2017_011,base_2017,F3,improvement suggestion,game_ai_opponents ; game_diplomacy ; ui_onboarding ; game_balance,4,2017-03,False,initial_primary,295,50,AI cheats and interruptions; proposes option to mute leaders,medium,True,Not yet reviewed
+CIV6_2017_012,base_2017,F1,specific problem,visual_style ; game_other ; game_pacing_progression,3,2017-04,True,initial_primary,45,7,Simplified mechanics and cartoon look compared with Civ V,high,True,Not yet reviewed
+CIV6_2017_013,base_2017,F2,improvement suggestion,game_ai_opponents ; game_balance ; game_diplomacy ; game_city_management ; update_mods,5,2017-06,False,initial_primary,645,110,Requests fixing/tuning unbalanced AI and gameplay,high,True,Not yet reviewed
+CIV6_2017_014,base_2017,F2,improvement suggestion,game_city_management ; game_diplomacy ; game_combat_units ; game_balance ; game_other,5,2017-05,False,initial_primary,3087,539,"Detailed district, resource, diplomacy, road and unit criticisms; calls for foundational redesign",medium,True,Not yet reviewed
+CIV6_2017_015,base_2017,F0,general dissatisfaction,general_comparison,1,2017-06,False,initial_primary,130,24,Generic disappointment versus Civ V,high,False,Not yet reviewed
+CIV6_2017_016,base_2017,F1,specific problem,dlc_pricing,1,2017-03,False,initial_primary,96,17,Claims deluxe edition costs more in Brazil than expected,high,False,Not yet reviewed
+CIV6_2017_017,base_2017,F1,specific problem,dlc_pricing ; other,2,2017-07,False,initial_primary,694,132,High price and refund eligibility criticized,medium,True,Not yet reviewed
+CIV6_2017_018,base_2017,F1,specific problem,game_city_management ; visual_style ; game_pacing_progression,3,2017-07,False,initial_primary,641,109,Overwhelming city micro-management and cartoony art,high,False,Not yet reviewed
+CIV6_2017_019,base_2017,F1,specific problem,game_ai_opponents ; game_city_management ; game_combat_units ; technical_performance ; update_mods,5,2017-06,True,initial_primary,748,125,AI and mechanics complaints plus bugs after updates and Mac problems,medium,True,Not yet reviewed
+CIV6_2017_020,base_2017,F1,specific problem,dlc_pricing ; game_other,2,2017-03,True,initial_primary,566,103,Season pass excludes later substantive gameplay DLC,high,True,Not yet reviewed
+CIV6_2017_021,base_2017,F1,specific problem,visual_style ; game_other,2,2017-05,False,initial_primary,535,102,Flashy visuals and limited gameplay depth,medium,True,Not yet reviewed
+CIV6_2017_022,base_2017,F1,specific problem,game_ai_opponents ; game_diplomacy ; game_combat_units ; dlc_pricing,4,2017-03,False,initial_primary,783,132,AI war declarations and poor deluxe edition value,high,False,Not yet reviewed
+CIV6_2017_023,base_2017,F1,specific problem,ui_onboarding ; technical_performance ; game_pacing_progression ; game_religion,4,2017-05,False,initial_primary,948,175,"Tedious religion, unintuitive interface, slow turn processing",high,False,Not yet reviewed
+CIV6_2017_024,base_2017,F3,improvement suggestion,content_representation ; game_ai_opponents ; dlc_pricing,3,2017-08,False,initial_primary,420,78,Suggests a specific alternative German leader; price and AI concerns,medium,True,Not yet reviewed
+CIV6_2017_025,base_2017,F0,general dissatisfaction,general_comparison,1,2017-06,False,initial_primary,50,9,Simple preference for earlier Civ games,high,False,Not yet reviewed
+CIV6_2017_026,base_2017,F0,general dissatisfaction,general_comparison,1,2017-05,False,initial_primary,37,9,No identifiable defect beyond Civ V comparison,high,False,Not yet reviewed
+CIV6_2017_027,base_2017,F1,specific problem,dlc_pricing,1,2017-03,False,initial_primary,205,38,Selling individual civilizations as paid content criticized,high,False,Not yet reviewed
+CIV6_2017_028,base_2017,F1,specific problem,visual_style ; ui_onboarding ; game_city_management ; game_other ; dlc_pricing,5,2017-05,True,initial_primary,943,175,"Unreadable tile graphics, district onboarding and pricing",high,True,Not yet reviewed
+CIV6_2017_029,base_2017,F1,specific problem,ui_onboarding ; technical_performance ; game_ai_opponents ; visual_style ; game_pacing_progression,5,2017-06,True,initial_primary,2315,429,Detailed camera and keyboard-control regressions; some edited text,medium,True,Not yet reviewed
+CIV6_2017_030,base_2017,F3,improvement suggestion,game_ai_opponents ; dlc_pricing,2,2017-03,False,initial_primary,500,96,Suggests lower DLC prices or a single consolidated pack,medium,True,Not yet reviewed
+CIV6_2017_031,base_2017,F1,specific problem,game_ai_opponents ; game_other,2,2017-07,True,initial_primary,232,48,Criticizes AI and civic system,high,True,Not yet reviewed
+CIV6_2017_032,base_2017,F1,specific problem,game_balance ; game_pacing_progression ; game_city_management ; game_combat_units,4,2017-05,True,initial_primary,444,78,Research and build speed mismatched; barbarians too strong,high,True,Not yet reviewed
+CIV6_2017_033,base_2017,F2,improvement suggestion,game_ai_opponents ; game_balance ; game_diplomacy ; game_city_management ; visual_style,5,2017-06,True,initial_primary,666,122,Requests fixes to difficulty and aggressive AI,medium,True,Not yet reviewed
+CIV6_2017_034,base_2017,F2,improvement suggestion,game_ai_opponents ; game_diplomacy ; game_city_management ; game_other ; ui_onboarding ; update_mods ; dlc_pricing,7,2017-08,True,initial_primary,4817,871,Requests developers address severe design flaws instead of DLC; edited,medium,True,Not yet reviewed
+CIV6_2017_035,base_2017,F1,specific problem,game_ai_opponents ; game_diplomacy ; game_other ; ui_onboarding ; visual_style,5,2017-03,True,initial_primary,2420,449,"AI stagnates, diplomacy one-dimensional, map hard to read",high,True,Not yet reviewed
+CIV6_2017_036,base_2017,F1,specific problem,technical_performance,1,2017-05,False,initial_primary,112,25,Game fails to launch despite capable laptop,high,False,Not yet reviewed
+CIV6_2017_037,base_2017,F0,general dissatisfaction,no_identifiable_issue,1,2017-03,False,initial_primary,290,57,Regrets purchase without identifiable problem,high,False,Not yet reviewed
+CIV6_2017_038,base_2017,F0,general dissatisfaction,no_identifiable_issue,1,2017-08,False,initial_primary,106,23,Only describes general disappointment,high,False,Not yet reviewed
+CIV6_2017_039,base_2017,F2,improvement suggestion,game_ai_opponents ; game_other,2,2017-03,False,initial_primary,2583,461,Requests developers focus on AI and player feedback,medium,True,Not yet reviewed
+CIV6_2017_040,base_2017,F1,specific problem,dlc_pricing ; game_ai_opponents ; game_pacing_progression ; ui_onboarding ; game_diplomacy,5,2017-03,True,initial_primary,948,178,"Bad deluxe DLC value plus AI, waiting, UI and diplomacy",high,True,Not yet reviewed
+CIV6_2018_001,rise_fall_2018,F1,specific problem,dlc_pricing,1,2018-04,False,initial_primary,197,43,Earlier core content sold again as paid DLC,high,False,Not yet reviewed
+CIV6_2018_002,rise_fall_2018,F1,specific problem,game_ai_opponents ; game_pacing_progression ; dlc_pricing ; game_religion,4,2018-07,True,initial_primary,285,50,"AI, game pacing, religion mechanics and expansion prices",high,True,Not yet reviewed
+CIV6_2018_003,rise_fall_2018,F1,specific problem,game_ai_opponents ; game_balance ; technical_performance ; dlc_pricing,4,2018-03,True,initial_primary,1879,333,"Edited review criticizes AI, performance, balance and DLC",medium,True,Not yet reviewed
+CIV6_2018_004,rise_fall_2018,F2,improvement suggestion,technical_performance,1,2018-05,True,initial_primary,1150,205,Explicit request to fix reproducible turn crashes,high,True,Not yet reviewed
+CIV6_2018_005,rise_fall_2018,F0,general dissatisfaction,general_comparison,1,2018-05,False,initial_primary,89,22,General disinterest compared with Civ V,high,False,Not yet reviewed
+CIV6_2018_006,rise_fall_2018,F1,specific problem,privacy_terms,1,2018-07,False,initial_primary,101,17,Names RedShell tracking as concern,medium,True,Not yet reviewed
+CIV6_2018_007,rise_fall_2018,F2,improvement suggestion,privacy_terms,1,2018-07,False,initial_primary,103,20,Calls for removal of RedShell tracking software,high,True,Not yet reviewed
+CIV6_2018_008,rise_fall_2018,F1,specific problem,privacy_terms,1,2018-06,True,initial_primary,402,62,Disputes privacy terms and tracking policy,high,True,Not yet reviewed
+CIV6_2018_009,rise_fall_2018,F1,specific problem,visual_style ; technical_performance ; game_other ; dlc_pricing,4,2018-03,False,initial_primary,484,81,"Cartoony style, shallow play, crashes and poor value",high,False,Not yet reviewed
+CIV6_2018_010,rise_fall_2018,F1,specific problem,visual_style ; game_other,2,2018-03,False,initial_primary,322,62,Art direction and stripped-down mechanics criticized,high,False,Not yet reviewed
+CIV6_2018_011,rise_fall_2018,F0,general dissatisfaction,no_identifiable_issue,1,2018-06,True,initial_primary,41,8,No specific feature criticized,high,True,Not yet reviewed
+CIV6_2018_012,rise_fall_2018,F1,specific problem,game_map_generation,1,2018-07,False,initial_primary,115,17,Map generation repeatedly produces similar layouts,high,False,Not yet reviewed
+CIV6_2018_013,rise_fall_2018,F0,general dissatisfaction,general_comparison,1,2018-08,False,initial_primary,114,21,Calls mechanics bad but names no specific defect,medium,True,Not yet reviewed
+CIV6_2018_014,rise_fall_2018,F1,specific problem,game_ai_opponents ; game_diplomacy ; visual_style ; game_other,4,2018-03,False,initial_primary,1698,299,Irrational diplomacy and cartoon character design,medium,True,Not yet reviewed
+CIV6_2018_015,rise_fall_2018,F1,specific problem,privacy_terms,1,2018-06,True,initial_primary,110,24,Objects to perceived spyware,high,True,Not yet reviewed
+CIV6_2018_016,rise_fall_2018,F1,specific problem,dlc_pricing ; privacy_terms,2,2018-06,False,initial_primary,188,36,Underwhelming expansion and claimed data harvesting,high,False,Not yet reviewed
+CIV6_2018_017,rise_fall_2018,F1,specific problem,game_ai_opponents,1,2018-03,False,initial_primary,27,7,Computer AI inferior to earlier games,high,False,Not yet reviewed
+CIV6_2018_018,rise_fall_2018,F1,specific problem,visual_style ; game_pacing_progression ; game_other,3,2018-07,False,initial_primary,403,75,Too many mechanics and disliked art direction,high,False,Not yet reviewed
+CIV6_2018_019,rise_fall_2018,F1,specific problem,ui_onboarding ; game_other ; game_city_management,3,2018-05,False,initial_primary,1242,231,Cannot customize trade routes or name cities as before,medium,True,Not yet reviewed
+CIV6_2018_020,rise_fall_2018,F2,improvement suggestion,privacy_terms ; other,2,2018-07,False,initial_primary,70,14,Requests refund over perceived tracking,high,True,Not yet reviewed
+CIV6_2018_021,rise_fall_2018,F0,general dissatisfaction,general_comparison,1,2018-06,False,initial_primary,231,43,General downgrade and refund without specific issue,high,False,Not yet reviewed
+CIV6_2018_022,rise_fall_2018,F2,improvement suggestion,multiplayer_online ; technical_performance ; privacy_terms,3,2018-06,True,initial_primary,824,156,Calls for cross-platform multiplayer and criticizes tracking,medium,True,Not yet reviewed
+CIV6_2018_023,rise_fall_2018,F1,specific problem,game_balance ; game_map_generation,2,2018-03,False,initial_primary,348,68,Repeated nearby AI spawns regardless of setup settings,medium,True,Not yet reviewed
+CIV6_2018_024,rise_fall_2018,F2,improvement suggestion,game_balance ; game_other ; dlc_pricing,3,2018-03,True,initial_primary,1944,352,States easy difficulty should actually be easy,medium,True,Not yet reviewed
+CIV6_2018_025,rise_fall_2018,F1,specific problem,privacy_terms,1,2018-07,True,initial_primary,92,16,Alleges RedShell spyware; later edit becomes positive,high,True,Not yet reviewed
+CIV6_2018_026,rise_fall_2018,F2,improvement suggestion,dlc_pricing,1,2018-08,False,initial_primary,83,14,Says deluxe purchasers deserve additional included content,medium,True,Not yet reviewed
+CIV6_2018_027,rise_fall_2018,F1,specific problem,privacy_terms,1,2018-07,False,initial_primary,53,8,Objects to spyware installation,high,False,Not yet reviewed
+CIV6_2018_028,rise_fall_2018,F2,improvement suggestion,technical_performance ; other,2,2018-03,False,initial_primary,356,64,Bugs and lack of support; explicitly seeks satisfactory response,medium,True,Not yet reviewed
+CIV6_2018_029,rise_fall_2018,F1,specific problem,game_pacing_progression ; dlc_pricing ; other,3,2018-08,False,initial_primary,273,54,Slow progression and unfair refund window,high,False,Not yet reviewed
+CIV6_2018_030,rise_fall_2018,F2,improvement suggestion,privacy_terms ; dlc_pricing,2,2018-07,False,initial_primary,231,45,Wants publisher to address spyware before recommending,high,True,Not yet reviewed
+CIV6_2018_031,rise_fall_2018,F1,specific problem,privacy_terms,1,2018-06,False,initial_primary,24,5,Spyware objection,high,False,Not yet reviewed
+CIV6_2018_032,rise_fall_2018,F1,specific problem,privacy_terms,1,2018-07,False,initial_primary,118,19,Data collection practices criticized,high,False,Not yet reviewed
+CIV6_2018_033,rise_fall_2018,F1,specific problem,privacy_terms,1,2018-06,False,initial_primary,8,1,Identifies RedShell privacy controversy as sole complaint,medium,True,Not yet reviewed
+CIV6_2018_034,rise_fall_2018,F2,improvement suggestion,privacy_terms,1,2018-07,False,initial_primary,87,12,Requests game improvements rather than tracking,high,True,Not yet reviewed
+CIV6_2018_035,rise_fall_2018,F1,specific problem,game_other ; game_pacing_progression ; game_ai_opponents,3,2018-06,True,initial_primary,7978,1522,Long edited review contrasts franchise depth and quality,low,True,Not yet reviewed
+CIV6_2018_036,rise_fall_2018,F0,general dissatisfaction,general_comparison,1,2018-07,False,initial_primary,84,18,Generic preference for Civ V,high,False,Not yet reviewed
+CIV6_2018_037,rise_fall_2018,F1,specific problem,dlc_pricing,1,2018-03,True,initial_primary,443,86,Too much playable content locked behind DLC,high,True,Not yet reviewed
+CIV6_2018_038,rise_fall_2018,F1,specific problem,game_city_management ; game_other,2,2018-05,True,initial_primary,351,72,Unclear wonder completion / construction requirements,medium,True,Not yet reviewed
+CIV6_2018_039,rise_fall_2018,F1,specific problem,privacy_terms,1,2018-06,False,initial_primary,72,13,Refuses game due to RedShell,high,False,Not yet reviewed
+CIV6_2018_040,rise_fall_2018,F1,specific problem,technical_performance,1,2018-07,True,initial_primary,35,4,Game crashes on launch,high,True,Not yet reviewed
+CIV6_2019_001,gathering_2019,F1,specific problem,technical_performance,1,2019-03,True,initial_primary,107,21,Repeated installation fails to make game run,high,True,Not yet reviewed
+CIV6_2019_002,gathering_2019,F1,specific problem,privacy_terms,1,2019-04,True,initial_primary,120,22,Remains negative over tracking attempt,high,True,Not yet reviewed
+CIV6_2019_003,gathering_2019,F1,specific problem,dlc_pricing ; game_other,2,2019-03,True,initial_primary,402,78,DLC and game value unfavorable to predecessor,medium,True,Not yet reviewed
+CIV6_2019_004,gathering_2019,F1,specific problem,dlc_pricing,1,2019-07,False,initial_primary,212,46,Expensive extra expansions despite deluxe purchase,high,False,Not yet reviewed
+CIV6_2019_005,gathering_2019,F1,specific problem,dlc_pricing,1,2019-03,True,initial_primary,82,14,Overpriced product without specific design defect,medium,True,Not yet reviewed
+CIV6_2019_006,gathering_2019,F1,specific problem,game_ai_opponents,1,2019-05,False,initial_primary,73,16,AI opponents incompetent,high,False,Not yet reviewed
+CIV6_2019_007,gathering_2019,F1,specific problem,privacy_terms,1,2019-03,True,initial_primary,272,53,Objects to EULA privacy terms,high,True,Not yet reviewed
+CIV6_2019_008,gathering_2019,F0,general dissatisfaction,no_identifiable_issue,1,2019-06,False,initial_primary,5,1,Only generic insult,high,False,Not yet reviewed
+CIV6_2019_009,gathering_2019,F1,specific problem,privacy_terms,1,2019-03,True,initial_primary,140,24,Retains negative recommendation over tracking history,high,True,Not yet reviewed
+CIV6_2019_010,gathering_2019,F0,general dissatisfaction,general_comparison,1,2019-06,False,initial_primary,51,10,Only recommends previous game,high,False,Not yet reviewed
+CIV6_2019_011,gathering_2019,F1,specific problem,ui_onboarding,1,2019-07,False,initial_primary,31,5,No native WASD keyboard support,high,False,Not yet reviewed
+CIV6_2019_012,gathering_2019,F1,specific problem,technical_performance,1,2019-05,False,initial_primary,121,22,Cannot load game and considers refund,high,False,Not yet reviewed
+CIV6_2019_013,gathering_2019,F0,general dissatisfaction,no_identifiable_issue,1,2019-07,True,initial_primary,27,3,Unplayable without specified reason,medium,True,Not yet reviewed
+CIV6_2019_014,gathering_2019,F1,specific problem,privacy_terms,1,2019-03,False,initial_primary,81,15,Accuses game of background data collection,high,False,Not yet reviewed
+CIV6_2019_015,gathering_2019,F2,improvement suggestion,privacy_terms,1,2019-07,False,initial_primary,1239,189,Direct request to remove privacy provisions from game,medium,True,Not yet reviewed
+CIV6_2019_016,gathering_2019,F1,specific problem,dlc_pricing,1,2019-06,False,initial_primary,192,35,High price for years-old game and DLC,high,False,Not yet reviewed
+CIV6_2019_017,gathering_2019,F2,improvement suggestion,game_pacing_progression ; game_other ; ui_onboarding,3,2019-03,False,initial_primary,595,104,Requests more focus on overall strategic decisions and less micro-management,medium,True,Not yet reviewed
+CIV6_2019_018,gathering_2019,F1,specific problem,dlc_pricing ; other,2,2019-05,False,initial_primary,273,54,Publisher practices and pricing criticized,medium,True,Not yet reviewed
+CIV6_2019_019,gathering_2019,F0,general dissatisfaction,general_comparison,1,2019-07,False,initial_primary,11,4,Only suggests playing previous Civ games,high,False,Not yet reviewed
+CIV6_2019_020,gathering_2019,F0,general dissatisfaction,general_comparison,1,2019-06,False,initial_primary,54,11,Civ V comparison without specific problem,high,False,Not yet reviewed
+CIV6_2019_021,gathering_2019,F1,specific problem,dlc_pricing ; game_ai_opponents,2,2019-06,True,initial_primary,246,49,Monetization and unintelligent AI complained of,high,True,Not yet reviewed
+CIV6_2019_022,gathering_2019,F3,improvement suggestion,dlc_pricing,1,2019-07,False,initial_primary,272,50,Proposes purchasing DLC bundles without removing owned base game,high,True,Not yet reviewed
+CIV6_2019_023,gathering_2019,F2,improvement suggestion,update_mods ; dlc_pricing ; game_other ; ui_onboarding ; game_city_management ; game_combat_units,6,2019-04,True,initial_primary,1059,191,Enumerates missing or difficult features and asks future improvements,medium,True,Not yet reviewed
+CIV6_2019_024,gathering_2019,F2,improvement suggestion,game_map_generation,1,2019-03,False,initial_primary,20,3,Direct request to update world builder,medium,True,Not yet reviewed
+CIV6_2019_025,gathering_2019,F1,specific problem,dlc_pricing,1,2019-03,False,initial_primary,93,18,DLC cost nearly equals base-game price,high,False,Not yet reviewed
+CIV6_2019_026,gathering_2019,F1,specific problem,dlc_pricing ; other,2,2019-03,False,initial_primary,98,20,Criticizes publisher and full-price value,medium,True,Not yet reviewed
+CIV6_2019_027,gathering_2019,F1,specific problem,game_ai_opponents ; game_balance ; game_combat_units ; game_city_management,4,2019-05,False,initial_primary,733,135,AI cheating difficulty and barbarian production pressure,high,False,Not yet reviewed
+CIV6_2019_028,gathering_2019,F1,specific problem,dlc_pricing,1,2019-08,True,initial_primary,30,8,Complains through loan joke about DLC expense,medium,True,Not yet reviewed
+CIV6_2019_029,gathering_2019,F1,specific problem,visual_style ; game_other,2,2019-07,False,initial_primary,846,154,Outdated graphics and limited engagement,high,False,Not yet reviewed
+CIV6_2019_030,gathering_2019,F1,specific problem,game_ai_opponents ; multiplayer_online,2,2019-08,True,initial_primary,329,61,Poor AI and online players leaving games early,high,True,Not yet reviewed
+CIV6_2019_031,gathering_2019,F1,specific problem,dlc_pricing,1,2019-07,False,initial_primary,148,26,Bundle purchase blocked for owners of base game,high,False,Not yet reviewed
+CIV6_2019_032,gathering_2019,F3,improvement suggestion,multiplayer_online ; dlc_pricing,2,2019-04,False,initial_primary,142,25,Proposes ranking and leaver penalty for multiplayer,high,True,Not yet reviewed
+CIV6_2019_033,gathering_2019,F1,specific problem,dlc_pricing ; game_pacing_progression,2,2019-04,False,initial_primary,166,27,High price and rapidly dull play,high,False,Not yet reviewed
+CIV6_2019_034,gathering_2019,F1,specific problem,game_other ; ui_onboarding ; visual_style,3,2019-07,False,initial_primary,1399,249,Overcomplicated mechanics and unreadable terrain graphics,high,True,Not yet reviewed
+CIV6_2019_035,gathering_2019,F1,specific problem,game_other,1,2019-03,False,initial_primary,180,32,Complexity and added mechanics criticized,medium,True,Not yet reviewed
+CIV6_2019_036,gathering_2019,F1,specific problem,game_other ; game_pacing_progression,2,2019-05,False,initial_primary,221,45,Complex systems and missing familiar features reduce enjoyment,medium,True,Not yet reviewed
+CIV6_2019_037,gathering_2019,F0,general dissatisfaction,no_identifiable_issue,1,2019-07,False,initial_primary,6,2,Generic lack of fun,high,False,Not yet reviewed
+CIV6_2019_038,gathering_2019,F1,specific problem,game_balance ; game_diplomacy ; game_ai_opponents ; game_other ; game_city_management,5,2019-07,False,initial_primary,2971,484,"Detailed balance and warmonger, leader and loyalty mechanics",high,True,Not yet reviewed
+CIV6_2019_039,gathering_2019,F1,specific problem,game_combat_units ; game_map_generation,2,2019-03,False,initial_primary,208,41,Starting locations too crowded even on spacious maps,high,False,Not yet reviewed
+CIV6_2019_040,gathering_2019,F1,specific problem,dlc_pricing,1,2019-07,False,initial_primary,119,21,High expansion prices despite playing more,high,False,Not yet reviewed
+CIV6_2020_001,frontier_2020,F2,improvement suggestion,technical_performance,1,2020-11,False,initial_primary,121,19,Explicitly requests crash bug fix,high,True,Not yet reviewed
+CIV6_2020_002,frontier_2020,F0,general dissatisfaction,no_identifiable_issue,1,2020-08,False,initial_primary,42,9,Ironic remark about addictive game without negative feature,medium,True,Not yet reviewed
+CIV6_2020_003,frontier_2020,F0,general dissatisfaction,no_identifiable_issue,1,2020-08,False,initial_primary,6,1,Only says boring,high,False,Not yet reviewed
+CIV6_2020_004,frontier_2020,F0,general dissatisfaction,no_identifiable_issue,1,2020-06,False,initial_primary,114,23,Sense of missing something without named issue,high,False,Not yet reviewed
+CIV6_2020_005,frontier_2020,F1,specific problem,dlc_pricing ; game_pacing_progression ; game_ai_opponents ; visual_style ; update_mods ; game_other,6,2020-07,False,initial_primary,450,83,"Monetization, pacing, AI, art and modding criticized",high,False,Not yet reviewed
+CIV6_2020_006,frontier_2020,F1,specific problem,dlc_pricing,1,2020-11,False,initial_primary,227,45,Expensive DLC versus previous title bundle,high,False,Not yet reviewed
+CIV6_2020_007,frontier_2020,F1,specific problem,ui_onboarding ; game_other ; game_combat_units,3,2020-09,True,initial_primary,248,46,Excessive launch audio and removed mechanics,medium,True,Not yet reviewed
+CIV6_2020_008,frontier_2020,F1,specific problem,technical_performance ; multiplayer_online,2,2020-06,False,initial_primary,127,23,Mac and PC multiplayer versions out of sync,high,False,Not yet reviewed
+CIV6_2020_009,frontier_2020,F1,specific problem,launcher ; update_mods ; technical_performance,3,2020-07,True,initial_primary,86,15,Launcher fails to work after update,high,True,Not yet reviewed
+CIV6_2020_010,frontier_2020,F1,specific problem,dlc_pricing,1,2020-08,False,initial_primary,541,99,Civilization content locked behind multiple paywalls,high,False,Not yet reviewed
+CIV6_2020_011,frontier_2020,F1,specific problem,ui_onboarding ; visual_style ; game_other,3,2020-08,True,initial_primary,876,159,"Interface, tiny text, poor tutorials, map visual conventions",high,True,Not yet reviewed
+CIV6_2020_012,frontier_2020,F1,specific problem,technical_performance,1,2020-09,False,initial_primary,113,20,Frequent crashes and lockups,high,False,Not yet reviewed
+CIV6_2020_013,frontier_2020,F1,specific problem,game_balance ; game_ai_opponents ; game_combat_units,3,2020-11,False,initial_primary,615,113,Difficulty bonuses and military unit production seem unfair,medium,True,Not yet reviewed
+CIV6_2020_014,frontier_2020,F0,general dissatisfaction,no_identifiable_issue,1,2020-11,True,initial_primary,58,11,General emotional drop without identifiable cause,medium,True,Not yet reviewed
+CIV6_2020_015,frontier_2020,F0,general dissatisfaction,general_comparison,1,2020-07,False,initial_primary,43,8,Comparison to older Civilization games only,high,False,Not yet reviewed
+CIV6_2020_016,frontier_2020,F1,specific problem,technical_performance,1,2020-08,False,initial_primary,157,26,Windows hardware incompatibility and bad performance,high,False,Not yet reviewed
+CIV6_2020_017,frontier_2020,F1,specific problem,technical_performance,1,2020-11,False,initial_primary,27,5,Frequent crashes on macOS,high,False,Not yet reviewed
+CIV6_2020_018,frontier_2020,F1,specific problem,ui_onboarding ; dlc_pricing ; game_other,3,2020-08,True,initial_primary,443,80,"Broken editor, microtransactions and franchise direction",high,True,Not yet reviewed
+CIV6_2020_019,frontier_2020,F0,general dissatisfaction,no_identifiable_issue,1,2020-06,False,initial_primary,15,3,Only generic dislike,high,False,Not yet reviewed
+CIV6_2020_020,frontier_2020,F2,improvement suggestion,technical_performance,1,2020-08,False,initial_primary,78,14,Direct request to fix hard crashes,high,True,Not yet reviewed
+CIV6_2020_021,frontier_2020,F1,specific problem,launcher ; technical_performance,2,2020-07,True,initial_primary,150,31,Unnecessary launcher prevents game starting,high,True,Not yet reviewed
+CIV6_2020_022,frontier_2020,F0,general dissatisfaction,no_identifiable_issue,1,2020-06,False,initial_primary,78,15,Generic disappointment and refund regret,high,False,Not yet reviewed
+CIV6_2020_023,frontier_2020,F1,specific problem,game_balance ; game_other,2,2020-09,False,initial_primary,295,54,"Loyalty, era and disaster rules feel unfair on high difficulty",high,False,Not yet reviewed
+CIV6_2020_024,frontier_2020,F2,improvement suggestion,technical_performance,1,2020-07,False,initial_primary,366,69,Requests functional Mac update before buying,medium,True,Not yet reviewed
+CIV6_2020_025,frontier_2020,F1,specific problem,dlc_pricing,1,2020-11,False,initial_primary,100,22,Additional paid DLC after purchasing premium edition,high,False,Not yet reviewed
+CIV6_2020_026,frontier_2020,F1,specific problem,game_other ; game_city_management ; game_pacing_progression ; game_map_generation,4,2020-07,False,initial_primary,1400,230,"Map spawn, volcanoes and city-building rules criticized",high,True,Not yet reviewed
+CIV6_2020_027,frontier_2020,F2,improvement suggestion,technical_performance,1,2020-06,True,initial_primary,468,90,Asks developer to fix frequent crashes,high,True,Not yet reviewed
+CIV6_2020_028,frontier_2020,F1,specific problem,technical_performance,1,2020-09,False,initial_primary,64,12,Mac version broken for months,high,False,Not yet reviewed
+CIV6_2020_029,frontier_2020,F1,specific problem,game_city_management ; game_combat_units ; game_ai_opponents ; game_diplomacy ; technical_performance ; game_other,6,2020-06,False,initial_primary,1998,366,"City placement, pathing, AI diplomacy and launch instability",high,True,Not yet reviewed
+CIV6_2020_030,frontier_2020,F1,specific problem,game_pacing_progression ; game_diplomacy ; game_ai_opponents ; game_balance,4,2020-07,False,initial_primary,357,57,Busywork and diplomacy/balance/AI issues reduce depth,high,False,Not yet reviewed
+CIV6_2020_031,frontier_2020,F1,specific problem,update_mods ; technical_performance,2,2020-11,False,initial_primary,72,14,Recent patch introduced recurring crashes,high,False,Not yet reviewed
+CIV6_2020_032,frontier_2020,F1,specific problem,technical_performance,1,2020-10,False,initial_primary,1076,194,Mac graphics crashes after many turns,high,False,Not yet reviewed
+CIV6_2020_033,frontier_2020,F0,general dissatisfaction,no_identifiable_issue,1,2020-08,True,initial_primary,82,17,Simply says game broken without specific failure,medium,True,Not yet reviewed
+CIV6_2020_034,frontier_2020,F1,specific problem,game_diplomacy ; game_city_management ; game_other ; game_ai_opponents,4,2020-08,False,initial_primary,470,82,AI leader diplomacy and road/builder mechanics criticized,high,False,Not yet reviewed
+CIV6_2020_035,frontier_2020,F1,specific problem,update_mods ; technical_performance ; multiplayer_online,3,2020-10,False,initial_primary,454,91,Frontier updates correlated with multiplayer crashes,high,False,Not yet reviewed
+CIV6_2020_036,frontier_2020,F2,improvement suggestion,technical_performance ; update_mods,2,2020-11,True,initial_primary,239,47,Requests developer not sell unsupported Mac build,medium,True,Not yet reviewed
+CIV6_2020_037,frontier_2020,F1,specific problem,game_diplomacy ; game_balance ; game_combat_units ; game_pacing_progression,4,2020-11,False,initial_primary,525,110,"Warmonger penalties, nuke balance and combat pacing",high,False,Not yet reviewed
+CIV6_2020_038,frontier_2020,F1,specific problem,game_pacing_progression,1,2020-08,False,initial_primary,130,25,Tedious waiting rather than meaningful decisions,medium,True,Not yet reviewed
+CIV6_2020_039,frontier_2020,F1,specific problem,ui_onboarding,1,2020-07,False,initial_primary,95,17,Bad 4K scaling / interface,high,False,Not yet reviewed
+CIV6_2020_041,frontier_2020,F2,improvement suggestion,technical_performance,1,2020-10,False,reserve_replacement,447,84,Requires fixing repeat Mac crashes before returning,medium,True,Not yet reviewed
+CIV6_2026_001,recent_2026,F1,specific problem,game_other ; game_pacing_progression,2,2026-10,False,initial_primary,117,19,Late-game partisan espionage overwhelms defenses,high,False,Not yet reviewed
+CIV6_2026_002,recent_2026,F1,specific problem,technical_performance,1,2026-05,False,initial_primary,31,6,Often crashes at startup,high,False,Not yet reviewed
+CIV6_2026_003,recent_2026,F0,general dissatisfaction,general_comparison,1,2026-09,False,initial_primary,20,6,Only compared unfavorably with Civ IV,high,False,Not yet reviewed
+CIV6_2026_004,recent_2026,F1,specific problem,game_balance,1,2026-06,False,initial_primary,101,20,AI receives unjustified additional advantages,high,False,Not yet reviewed
+CIV6_2026_005,recent_2026,F1,specific problem,dlc_pricing ; game_other,2,2026-08,False,initial_primary,238,39,Repeated purchases and DLC monetization reduce value,high,False,Not yet reviewed
+CIV6_2026_006,recent_2026,F1,specific problem,technical_performance,1,2026-08,False,initial_primary,99,20,Mac crash and lack of support,high,False,Not yet reviewed
+CIV6_2026_007,recent_2026,F0,general dissatisfaction,general_comparison,1,2026-10,False,initial_primary,28,7,Only prefers Civ V,high,False,Not yet reviewed
+CIV6_2026_008,recent_2026,F1,specific problem,game_pacing_progression,1,2026-08,False,initial_primary,150,32,Gameplay feels laborious versus previous entries,medium,True,Not yet reviewed
+CIV6_2026_009,recent_2026,F1,specific problem,privacy_terms,1,2026-06,False,initial_primary,484,89,Rejects privacy terms due to perceived data collection,high,False,Not yet reviewed
+CIV6_2026_012,recent_2026,F1,specific problem,game_ai_opponents,1,2026-09,False,initial_primary,42,7,AI makes irrational decisions,high,False,Not yet reviewed
+CIV6_2026_013,recent_2026,F0,general dissatisfaction,no_identifiable_issue,1,2026-05,False,initial_primary,19,4,Generic profanity only,high,False,Not yet reviewed
+CIV6_2026_014,recent_2026,F1,specific problem,technical_performance,1,2026-08,False,initial_primary,367,68,Game no longer launches despite troubleshooting,high,False,Not yet reviewed
+CIV6_2026_015,recent_2026,F1,specific problem,ui_onboarding ; game_city_management ; game_combat_units ; game_other ; game_balance,5,2026-08,False,initial_primary,3047,549,Tutorial and UI fail to explain game rules and conditions,medium,True,Not yet reviewed
+CIV6_2026_016,recent_2026,F1,specific problem,game_pacing_progression ; ui_onboarding ; game_balance ; game_city_management,4,2026-05,False,initial_primary,442,77,Production/research timing and objectives hard to understand,high,False,Not yet reviewed
+CIV6_2026_017,recent_2026,F1,specific problem,technical_performance,1,2026-07,False,initial_primary,91,17,Crashes after variable periods,high,False,Not yet reviewed
+CIV6_2026_018,recent_2026,F0,general dissatisfaction,general_comparison,1,2026-06,False,initial_primary,129,25,Generic comparison with Civ V and VII,high,False,Not yet reviewed
+CIV6_2026_019,recent_2026,F1,specific problem,technical_performance ; multiplayer_online,2,2026-05,False,initial_primary,335,65,Optimization and repeated multiplayer desync,high,False,Not yet reviewed
+CIV6_2026_020,recent_2026,F1,specific problem,technical_performance,1,2026-06,False,initial_primary,103,20,MacBook cannot run the game after installation,high,False,Not yet reviewed
+CIV6_2026_021,recent_2026,F1,specific problem,game_balance,1,2026-06,False,initial_primary,155,26,Unfair AI production and resource bonuses,high,False,Not yet reviewed
+CIV6_2026_022,recent_2026,F1,specific problem,technical_performance,1,2026-10,False,initial_primary,17,3,Game fails to function at all,medium,True,Not yet reviewed
+CIV6_2026_023,recent_2026,F1,specific problem,technical_performance,1,2026-09,False,initial_primary,46,7,Crash within minutes of load,high,False,Not yet reviewed
+CIV6_2026_024,recent_2026,F1,specific problem,ui_onboarding ; technical_performance,2,2026-08,False,initial_primary,810,148,Mis-click-prone UI and persistent bugs,high,False,Not yet reviewed
+CIV6_2026_025,recent_2026,F0,general dissatisfaction,no_identifiable_issue,1,2026-07,False,initial_primary,40,7,Joking about excessive time spent,high,False,Not yet reviewed
+CIV6_2026_026,recent_2026,F1,specific problem,game_pacing_progression,1,2026-06,False,initial_primary,26,7,Game pace too slow,high,False,Not yet reviewed
+CIV6_2026_027,recent_2026,F0,general dissatisfaction,no_identifiable_issue,1,2026-05,False,initial_primary,22,5,No identifiable issue beyond boredom and value,medium,True,Not yet reviewed
+CIV6_2026_028,recent_2026,F1,specific problem,game_pacing_progression ; game_ai_opponents ; game_other,3,2026-08,False,initial_primary,624,116,Late-game stalemates and low engagement without war,high,False,Not yet reviewed
+CIV6_2026_029,recent_2026,F0,general dissatisfaction,no_identifiable_issue,1,2026-10,False,initial_primary,7,2,Only no fun,high,False,Not yet reviewed
+CIV6_2026_030,recent_2026,F1,specific problem,privacy_terms,1,2026-05,False,initial_primary,131,24,Objects to government sharing in privacy terms,high,False,Not yet reviewed
+CIV6_2026_031,recent_2026,F0,general dissatisfaction,no_identifiable_issue,1,2026-07,False,initial_primary,202,36,Multiplayer called bad without concrete issue,medium,True,Not yet reviewed
+CIV6_2026_032,recent_2026,F1,specific problem,technical_performance,1,2026-09,False,initial_primary,17,3,Game repeatedly crashes,high,False,Not yet reviewed
+CIV6_2026_034,recent_2026,F1,specific problem,technical_performance,1,2026-06,False,initial_primary,148,32,Game cannot launch after earlier playthrough,high,False,Not yet reviewed
+CIV6_2026_044,recent_2026,F1,specific problem,game_pacing_progression ; game_other,2,2026-10,False,reserve_replacement,42,8,Repeated micromanagement makes gameplay a poor fit,high,False,Not yet reviewed
+CIV6_2026_036,recent_2026,F1,specific problem,technical_performance,1,2026-05,False,initial_primary,57,11,Advertised Mac version does not function,high,False,Not yet reviewed
+CIV6_2026_037,recent_2026,F0,general dissatisfaction,no_identifiable_issue,1,2026-07,False,initial_primary,67,13,Does not name game defect; simply says player performed badly,medium,True,Not yet reviewed
+CIV6_2026_038,recent_2026,F1,specific problem,dlc_pricing,1,2026-05,False,initial_primary,21,3,Price described as excessive,high,False,Not yet reviewed
+CIV6_2026_039,recent_2026,F0,general dissatisfaction,general_comparison,1,2026-10,False,initial_primary,83,15,Broad gameplay downgrade without mechanism,medium,True,Not yet reviewed
+CIV6_2026_040,recent_2026,F0,general dissatisfaction,no_identifiable_issue,1,2026-08,False,initial_primary,33,5,Generic negative multiplayer evaluation,medium,True,Not yet reviewed
+CIV6_2026_041,recent_2026,F1,specific problem,multiplayer_online ; technical_performance,2,2026-08,False,reserve_replacement,99,20,Multiplayer servers fail before match can finish,high,False,Not yet reviewed
+CIV6_2026_042,recent_2026,F0,general dissatisfaction,general_comparison,1,2026-10,False,reserve_replacement,268,53,General prior-title comparison without defect,high,False,Not yet reviewed
+CIV6_2026_043,recent_2026,F1,specific problem,game_ai_opponents ; game_balance ; game_diplomacy ; ui_onboarding ; technical_performance ; game_other,6,2026-08,True,reserve_replacement,411,79,"AI decisions, political pressure balance, trade usability and optimization",high,True,Not yet reviewed
