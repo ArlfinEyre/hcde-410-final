@@ -20,6 +20,16 @@ This repository contains the A4 preliminary proposal extended into the A5 final 
 
 Review IDs and bulk raw review text stay private and are not intended for public GitHub. The repository's MIT license applies to the project's original code and documentation, not Steam data or reviewers' comments.
 
+## Stage 4 — First-pass coding of 200 original reviews (Nov 26, 2026)
+
+**Status:** A **provisional AI-assisted content-coding pass** has been prepared for the 200 verified Steam review texts. This is **NOT human-confirmed analysis or a reliability result**. [Stage 4 methods and findings](data/Stage4_AI_First_Pass_Report.md) · [Anonymous 200-case codes](data/ai_first_pass_200_codes.csv) · [Runnable charts](analysis/Stage4_Descriptive_Charts.ipynb).
+
+Initial labels: **F0=36, F1=130, F2=29, F3=5**. These descriptive counts belong to the *model's* first pass; they should not be presented as final proportions in an academic report without review. The most frequently flagged named gameplay system is AI opponents (35/200); separately, technical/performance issues (45) and DLC/pricing (43) are common. Multiple topic labels may appear per review.
+
+**Selection correction:** A further non-substantive review (`CIV6_2026_035`) was removed and replaced with the next unused random reserve (`CIV6_2026_044`), yielding **five cumulative screened replacements**, documented in [Stage 4 amendment](data/stage4_additional_exclusion.csv) and the [updated anonymous selection list](data/final_selection_200_ids.csv). All five periods still have 40 selected comments.
+
+**Required next step:** The user/researcher must independently review an original-text **40-item blinded worksheet (20% stratified audit)**, shared privately outside GitHub. No raw Steam review text or reviewer IDs are included in this public repository. Comparison and reconciliation are **pending**, as is a separate within-coder reliability claim (not established by comparing a human with an AI).
+
 ## Current status — complete five-period frames and screened 200 candidates (Nov 25, 2026)
 
 - **Complete retrieval:** [manifest](data/stratified_collection_manifest.json) confirms **3,191 unique matching Steam API reviews** across five windows (2017: 811; 2018: 763; 2019: 452; 2020: 870; 2026: 295), with every window paginated until the retrieved-ID count matched the API total.
