@@ -115,3 +115,18 @@ The revised complete-frame collector succeeded: **3,191** matching review IDs ac
 **Chronology:** 46 of these 200 records were edited after the creation timestamp. This is not evidence that the edited words were originally present. Consider a sensitivity analysis excluding edited historical reviews.
 
 **Coding status:** No full-sample F0–F3 labels have been finalized. The 50-review pilot first pass and borderline adjudication were assisted by ChatGPT; they do not constitute an independent blinded coding reliability check. Before final submission, the student should verify the classification and complete a delayed blind 15–20% code–recode check with disagreements logged.
+
+## H. Stage 4 provisional coding and independent reviewer checkpoint (Nov 26, 2026)
+
+The 200-case complete-frame random selection now has an **AI-assisted first-pass code table** rather than only unclassified sample IDs: [200 anonymized first-pass codes](data/ai_first_pass_200_codes.csv). See the [provisional methods report](data/Stage4_AI_First_Pass_Report.md). The coding was generated with ChatGPT assistance and has **not yet been independently verified by the student**.
+
+**Additional screening:** A non-substantive hostile fragment (`CIV6_2026_035`) was excluded and replaced sequentially by the next unused pre-randomized reserve (`CIV6_2026_044`), keeping 40 cases in each of five periods. Cumulative Stage 3 + Stage 4 exclusions: five. See the [replacement log](data/stage4_additional_exclusion.csv).
+
+**New topics identified during source review:**
+- `game_map_generation` — map layout and spawning rules, terrain generation, world-builder functionality. Do not conflate with diplomatic borders.
+- `game_religion` — specific complaints about religion and religious competition, separate from ordinary diplomatic contact.
+- `multiplayer_online` — match stability, cross-platform multiplayer, desynchronization, leavers and online server problems. Technical crashes may co-occur with this label.
+
+**Conservative first-pass coding rules:** Treat global insults, "not fun", "trash" and vague dislike as F0. A recognizable failure to launch is F1/technical even without diagnosis. Naming a missing feature without explicitly asking for a change is F1, not automatically F2. F3 requires an articulated remedy/option or policy design, not merely "fix it." Two categories can both apply when the text explicitly describes both (e.g., AI behavior and diplomacy).
+
+**Human validation:** The researcher is asked to blindly recode 40 original reviews, eight per period, without seeing model labels. This is an **AI–human validation comparison**, not an independent human code–recode reliability study. Long, edited and borderline comments require further close reading and potential recoding before reporting final conclusions. `model_confidence` is an informal review-priority flag, **not** a calibrated probability.
