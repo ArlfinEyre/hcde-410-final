@@ -3,3 +3,12 @@ data_private/
 .env
 __pycache__/
 .ipynb_checkpoints/
+
+# Original review text, private researcher coding files, and blind human worksheets
+*private*.csv
+*PRIVATE*.csv
+*_PRIVATE.xlsx
+*Blind_Human_Recode*.xlsx
+*_private_*.zip
+hcde410_private_steam/
+hcde410_stage4/
